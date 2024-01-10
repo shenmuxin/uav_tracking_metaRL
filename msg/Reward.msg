@@ -1,0 +1,7 @@
+Header header
+float32 distance_reward
+float32 step_punish_reward
+float32 angular_reward
+float32 catch_reward
+float32 crash_reward
+float32 out_punish_reward

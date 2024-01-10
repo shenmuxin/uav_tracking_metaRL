@@ -1,0 +1,28 @@
+# PEARL Experiment configs
+
+# Select either dir or vel (str)
+env_name: "multi"
+
+# Set an experiment name to save (str)
+save_exp_name: "test"
+
+# Set a file name to save (str or null)
+save_file_name: null
+
+# Set an experiment name to load (str or null)
+load_exp_name: "train"
+
+# Set a file name to load (str or null)
+load_file_name: "2023-12-14-17-27-30"
+# load_file_name: "2023-12-16-21-31-40"
+
+# Set a checkpoint number (int)
+load_ckpt_num: 150
+# load_ckpt_num: 200
+
+
+# Set a GPU index (int)
+gpu_index: 0
+
+# Set a random seed (int)
+seed: 0
