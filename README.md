@@ -2,6 +2,10 @@
 
 ## 1. Main Results
 
+<video width="320" height="240" controls>
+  <source src="figs/task1_whole_traj.mp4" type="video/mp4">
+</video>
+
 
 ## 2. Installation
 ### 2.1 Software Version
