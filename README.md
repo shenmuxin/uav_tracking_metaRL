@@ -2,12 +2,15 @@
 
 ## 1. Main Results
 
-<video width="320" height="240" controls>
-  <source src="figs/task1_whole_traj.mp4" type="video/mp4">
-</video>
+![task_1](figs/task1_whole_traj.gif)
+
+![task_2](figs/task2_whole_traj.gif)
+
+![task_3](figs/task3_whole_traj.gif)
 
 
 ## 2. Installation
+
 ### 2.1 Software Version
 
 | Interface                       | Version                    |
