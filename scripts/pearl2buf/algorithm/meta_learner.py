@@ -389,8 +389,8 @@ class MetaLearner:
         return_after_infer += np.sum(trajs[1][0]["rewards"])
             
 
-        test_results["return_before_infer"] = return_before_infer / len(self.test_tasks)
-        test_results["return_after_infer"] = return_after_infer / len(self.test_tasks)
+        test_results["return_before_infer"] = return_before_infer
+        test_results["return_after_infer"] = return_after_infer
 
         test_results["policy_loss"] = log_values["policy_loss"]
         test_results["qf1_loss"] = log_values["qf1_loss"]
