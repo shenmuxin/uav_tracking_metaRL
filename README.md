@@ -2,6 +2,8 @@
 
 ## 1. Main Results
 
+You can find the demo video here: [YouTube](https://www.youtube.com/watch?v=kWg8-bRl02U)
+
 ![task_1](figs/task1_whole_traj.gif)
 
 ![task_2](figs/task2_whole_traj.gif)
