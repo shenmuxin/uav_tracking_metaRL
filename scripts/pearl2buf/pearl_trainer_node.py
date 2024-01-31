@@ -30,11 +30,11 @@ if __name__ == "__main__":
     # register node
     rospy.init_node('pearl_trainer_node')
 
-    # 加载实验环境设置的超参数
+    # load hyperparameters
     with open(os.path.join(current_path, "configs/experiment_config.yaml"), "r", encoding="utf-8") as file:
         experiment_config: Dict[str, Any] = yaml.load(file, Loader=yaml.FullLoader)
 
-    # 加载超参数以设置目标奖励
+    # load hyperparameters
     with open(
         os.path.join(current_path, "configs/" + experiment_config["env_name"] + "_target_config.yaml"),
         "r",
@@ -42,11 +42,11 @@ if __name__ == "__main__":
     ) as file:
         env_target_config: Dict[str, Any] = yaml.load(file, Loader=yaml.FullLoader)
 
-    # 创建多任务环境和示例任务
+    # initial tasks
     env: MultiTaskGameAvoid = MultiTaskGameAvoid(num_tasks=env_target_config["train_tasks"],)
     tasks: List[int] = env.get_all_task_idx()
 
-    # 设置随机种子值
+    # set seed
     np.random.seed(experiment_config["seed"])
     torch.manual_seed(experiment_config["seed"])
 
@@ -87,7 +87,7 @@ if __name__ == "__main__":
         **env_target_config["pearl_params"],
     )
 
-    # PEARL 开始学习
+    # PEARL-2Buf training
     meta_learner.meta_train()
 
     
