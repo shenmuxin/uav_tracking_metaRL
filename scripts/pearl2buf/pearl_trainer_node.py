@@ -11,7 +11,7 @@ import sys
 current_path = os.path.abspath(os.path.dirname(__file__))
 parent_path = os.path.abspath(os.path.join(current_path, '../'))
 sys.path.append(parent_path)
-# activate conda env
+# activate conda env, remember change this path to your conda env
 sys.path.append('/home/sjh/anaconda3/envs/metarl/lib/python3.8/site-packages')
 import inspect
 
