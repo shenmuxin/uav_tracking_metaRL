@@ -14,7 +14,7 @@ latent_dim: 5
 # Dimension of hidden units in neural networks
 hidden_dim: 300
 
-# PEARL setup
+# PEARL-2Buf setup
 # -----------
 pearl_params:
     # Number of training iterations
