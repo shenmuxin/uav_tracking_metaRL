@@ -1,7 +1,7 @@
 # Quadrotor UAV Target Tracking and Obstacle Avoidance: meta-RL Method
 
 ## 0. Statement
-This work has been submitted to CCC2024. Users are requested to cite my paper in the future. Thank you!
+This work has been submitted to CCC2024. If you use my code, please be sure to cite my paper in the future. Thank you!
 
 ## 1. Main Results
 
@@ -157,6 +157,6 @@ Make sure you meet the above configuration conditions.
 A quick Start:
 
 - First run the launch file to start Gazebo11 as `roslaunch uav_tracking_metaRL setup_2uavs.launch`, then you can run meta-training or meta-test as follows.
-- Meta-training run script `scripts/pearl2buf/pearl_trainer_node.py`
-- Meta-test run script `scripts/pearl2buf/pearl_infer_node.py`
+- Meta-training run script `scripts/pearl2buf/pearl_trainer_node.py`. You can run meta-training as `rosrun uav_tracking_metaRL pearl_trainer_node.py`.
+- Meta-test run script `scripts/pearl2buf/pearl_infer_node.py`. You can run meta-test as `rosrun uav_tracking_metaRL pearl_infer_node.py`.
 - Change the hyperparameters in `scripts/pearl2buf/configs`
