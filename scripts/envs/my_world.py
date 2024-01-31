@@ -188,10 +188,8 @@ class World:
         plt.xlabel('X-axis')
         plt.ylabel('Y-axis')
 
-        # 添加图例
         plt.legend()
 
-        # 显示图形
         plt.show()
 
 
