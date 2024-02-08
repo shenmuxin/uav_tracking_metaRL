@@ -146,11 +146,14 @@ cd ..
 catkin_make
 ```
 
-Copy the robotic model in `/models` of this project to `/PX4-Autopilot/Tools/sitl_gazebo/models`. Make sure that you follow the answer ([here](https://discuss.px4.io/t/create-custom-model-for-sitl/6700)) to add the custom robot file.
-Copy the launch file in `/launch` of this project to `/PX4-Autopilot/launch`.
+## 3.2 Modification in PX4
+
+- Copy the robotic model in `/models` of this project to `/PX4-Autopilot/Tools/sitl_gazebo/models`. Make sure that you follow the answer ([here](https://discuss.px4.io/t/create-custom-model-for-sitl/6700)) to add the custom robot file.
+
+- Copy the launch file `mavros_posix_sitl_UST10LX.launch` in `/launch` of this project to `/PX4-Autopilot/launch`.
 
 
-## 3.2 Quick Start
+## 3.3 Quick Start
 
 Make sure you meet the above configuration conditions. 
 
