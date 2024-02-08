@@ -54,10 +54,6 @@ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-Copy the robotic model in `/models` to `/PX4-Autopilot/Tools/sitl_gazebo/models`.
-Copy the launch file in `/launch` to `/PX4-Autopilot/launch`.
-Then follow the answer to add your custom robot as [here](https://discuss.px4.io/t/create-custom-model-for-sitl/6700).
-
 ### 2.3 Gazebo11
 Download the [model](https://gazebosim.org/docs/all/getstarted), and then put it in `~/.gazebo`
 
@@ -149,6 +145,10 @@ This repository is a function package of the ROS frame. So, you should clone thi
 cd ..
 catkin_make
 ```
+
+Copy the robotic model in `/models` of this project to `/PX4-Autopilot/Tools/sitl_gazebo/models`. Make sure that you follow the answer ([here](https://discuss.px4.io/t/create-custom-model-for-sitl/6700)) to add the custom robot file.
+Copy the launch file in `/launch` of this project to `/PX4-Autopilot/launch`.
+
 
 ## 3.2 Quick Start
 
