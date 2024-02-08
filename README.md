@@ -1,7 +1,8 @@
 # Quadrotor UAV Target Tracking and Obstacle Avoidance: meta-RL Method
 
 ## 0. Statement
-This work has been submitted to CCC2024. If you use my code, please be sure to cite my paper in the future. Thank you!
+
+<font color=red> This work has been submitted to CCC2024. If you use my code, please be sure to cite my paper in the future. Thank you! </font>
 
 ## 1. Main Results
 
