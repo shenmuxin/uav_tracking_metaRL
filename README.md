@@ -2,7 +2,7 @@
 
 ## 0. Statement
 
-<font color=red>This work has been submitted to CCC2024. If you use my code, please be sure to cite my paper in the future. Thank you!</font>
+**This work has been submitted to CCC2024. If you use my code, please be sure to cite my paper in the future. Thank you!**
 
 ## 1. Main Results
 
