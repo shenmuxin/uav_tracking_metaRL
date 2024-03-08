@@ -17,8 +17,8 @@ from envs.my_world import World
 import rospy
 from sensor_msgs.msg import LaserScan
 from mavros_msgs.msg import PositionTarget
-from sitl_study.msg import Reward
-from sitl_study.msg import State
+from uav_tracking_metaRL.msg import Reward
+from uav_tracking_metaRL.msg import State
 
 import numpy as np
 import math
