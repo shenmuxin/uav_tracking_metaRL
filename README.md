@@ -2,7 +2,12 @@
 
 ## 0. Statement
 
-**This work has been submitted to CCC2024. If you use my code, please be sure to cite my paper in the future. Thank you!**
+You can find the paper as:
+
+```bash
+Autonomous Target Tracking and Obstacle Avoidance of A Quadrotor UAV Based on Meta-RL Algorithm, J. Shen, Y. Meng,
+H. Zhang, 43th Chinese Control Conference (CCC), Kunming, Jul. 2024, pp.5680-5685
+```
 
 ## 1. Main Results
 
